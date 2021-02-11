@@ -1,0 +1,120 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+#menu{
+  height: 175px;
+  background-color: white;
+}
+#centro{
+  width: 100%;
+  background-color: white;
+  height: calc(100vh - 300px)
+  position:relative;
+  background-image: url('assets/Bitmap@2x.png');
+  background-size: auto 100%;
+  background-position: 50% 50%;
+}
+#footer{
+  width: 100%;
+  height: 150%;
+  background-color: #808280;
+  position: relative;
+  text-align: center;
+}
+#logo{
+  width: 100px;
+  height: 100px;
+  background-image: url('assets/logo@2x.png');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-color: crimson;
+  top: 22.5px;
+  left: 22.5px;
+  position: relative;
+}
+#submenu{
+  position: absolute;
+  right: 22.5px;
+  top: 29px;
+}
+.linkmenu{
+  color:#272F57;
+  font-family:'gilroylight';
+  text-decoration: none;
+  font-size: 16px;
+  border: 0x solid transparent;
+  border-bottom: 4px solid #773F2F;
+  padding-bottom: 5px;
+  transition: all 0.75s ease;
+}
+.linkMenu:hover{
+  border-bottom: 4px solid #773F2F;
+  color: #773F2F;
+}
+.linkmenuNone{
+  color:#272F57;
+  font-family:'gilroylight';
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.centerButton{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom:100px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-top: 35vh;
+  height: auto;
+
+}
+.btnBrown{
+  color:#fff;
+  font-family: 'gilroyextraBold';
+  text-decoration: none;
+  background-color: #773F2F;
+  border-radius: 30px;
+  font-size: 24px;
+  padding: 10px 20px 10px 20px;
+}
+.bottomCenter{
+  position: relative;
+  display: inline-block;
+  background-color: #272F57;
+  width: 800px;
+  padding-top: 40px;
+}
+.bottomSpace{
+  position: relative;
+  display: inline;
+  float: left;
+  width: 33%;
+  text-align: left;
+}
+@media screen and (max-width:720px) {
+
+  #centro{
+    height: 70vw;
+  }
+  #footer{
+    height: auto;
+  }
+  .centerButton{
+    bottom: :40px;
+    -ms-transform:none;
+    transform:none;
+    top: auto;
+    padding-top: 0;
+
+  }
+  .btnBrown{
+    font-size: 16px;
+    padding: 8px 16px 8px 16px;
+  }
+
+
+}
