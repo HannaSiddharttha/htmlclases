@@ -132,4 +132,13 @@ body{
       padding-bottom: 20px;
       padding-right: 0;
     }
+/*dispositivos  moviles*/
+    @media screen and (max-width: 720px) {
+    #centro{
+        height: 90vw;
+    }
+    #footer{
+        height: auto;
+    }
+
 }
