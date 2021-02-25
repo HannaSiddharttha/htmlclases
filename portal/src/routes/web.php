@@ -21,12 +21,12 @@ use Illuminate\Http\Request;
 });*/
 
 Route::get('/', function () {
-    return view('home');
-});
-Route::get('/hola', function () {
-    return view('hola');
+    return view('index');
 });
 
+Route::get('/cotizador', function () {
+    return view('cotizador');
+});
 
 
 //Route::get('terminosycondiciones', 'App\Http\Controllers\EstaticosController@terminosycondiciones');
