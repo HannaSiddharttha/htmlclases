@@ -3,7 +3,7 @@
 </div>
 <div id="centro">
     <div class="centerButton">
-        <a href="#" class="btnBrown">COTIZAR</a>
+        <a href="/cotizador" class="btnBrown">COTIZAR</a>
     </div>
 </div>
 @include('layout/footer')
