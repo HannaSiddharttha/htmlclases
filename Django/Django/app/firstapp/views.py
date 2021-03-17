@@ -25,3 +25,9 @@ def vista2(request):
     return render(request, 'dos.html', {'title': "Bumblebee" })  
 
 
+def vistaIndex(request):
+    return render(request, 'index.html')
+
+
+def vistaCotizador(request):
+    return render(request, 'cotizador.html')
